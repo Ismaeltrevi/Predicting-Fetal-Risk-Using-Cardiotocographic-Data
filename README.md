@@ -1,10 +1,9 @@
-# Phase_3_Project
-![header](./images/500px-CTG_Output.jpg)
-
-
 # Predicting Fetal Risk Using Cardiotocographic Data
+![header](https://www.babycenter.in/ims/2015/08/ThinkstockPhotos-467038537_wide.jpg)
 
-**Authors**: Jacob Heyman, Ismael Araujo
+**Authors**: Jacob Heyman and Ismael Araujo
+
+***Note: This is a revised version of the original project created by Jacob Heyman and Ismael Araujo.You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
 
 ## Overview
 As medical technology advances, the rate of preventable child mortality decreases. Lowering child mortality rates has become a key goal in advancing any society and a key in human progress as a whole. While there are many advancements that have improved the mortality rate, not all of these practices are globally available. In order to improve mortality rates in cost effective and readily available solutions need to be applied and perfected.
