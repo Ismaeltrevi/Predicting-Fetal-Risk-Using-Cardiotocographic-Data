@@ -3,7 +3,7 @@
 
 **Authors**: Ismael Araujo and Jacob Heyman
 
-***Note: This is a revised version of the original project created by Jacob Heyman and Ismael Araujo.You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
+***Note: This is a revised version of the original project created by Jacob Heyman and Ismael Araujo. You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
 
 ## Overview
 As medical technology advances, the rate of preventable child mortality decreases. Lowering child mortality rates has become a key goal in advancing any society and a key in human progress as a whole. While there are many advancements that have improved the mortality rate, not all of these practices are globally available. In order to improve mortality rates in cost effective and readily available solutions need to be applied and perfected.
