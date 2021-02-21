@@ -130,21 +130,21 @@ The best model overall for **Experimental** was a grid search best features XGBb
 
 
 ## Conclusions
-Cardiotocographs are a cost effective method to moniter fetal health, and use are used as a tool to  lower the child mortality rate.  One of the major issues with CTG monitereing was errors made through visual analysis.  Any invterventive surgery weather necessary or not increase risk.  In this study, we utalized multiple modeling processes to predict fetal health class, and attempted to create the highest precision in our prediction to reduce false positive classification instances.  With the CTG exam dataset from kaggle, we preformed two simultaneous medeling processes with a vanilla and experimental data set.  While the random forest model of our vanilla set had the highest precision, which was our target metric, the xgboost model of the experimental had the best overall metrics with a very high precision.  The key features in our best model where abnormal short term varitability, histogram mode, histogram min, histogram mean and histogram width.  All of these features are measurements of the fetal heart rates change over time.  This lines up with what is visually obsereved for fetal distress in the O.R.  Our model has a high precision and other metrics and can predict on these features to a greater effect than the standared visual analysis.  We believe that our model will help in the precise classification of fetal distress and improve the overall child mortality rate by reducing  risk through human error.  
+Cardiotocographs are a cost effective method to moniter fetal health, and use are used as a tool to  lower the child mortality rate.  One of the major issues with CTG monitereing was errors made through visual analysis.  Any invterventive surgery weather necessary or not increase risk.  In this study, we utalized multiple modeling processes to predict fetal health class, and attempted to create the highest precision in our prediction to reduce false positive classification instances.  With the CTG exam dataset from kaggle, we preformed two simultaneous medeling processes with a vanilla and experimental data set.  While the random forest model of our vanilla set had the highest precision, which was our target metric, the xgboost model of the experimental had the best overall metrics with a very high precision.  The key features in our best model where abnormal short term varitability, histogram mode, histogram min, histogram mean and histogram width.  All of these features are measurements of the fetal heart rates change over time.  This lines up with what is visually obsereved for fetal distress in the O.R.  Our model has a high precision and other metrics and can predict on these features to a greater effect than the standared visual analysis.  We believe that our model will help in the precise classification of fetal distress and improve the overall child mortality rate by reducing  risk through human error.
 
 
 
 
 ## Next Steps
-- make a multiclass for fetal health, multiple classes of fetal health to better classify the health state
-- find more CTG exam data to better train model.  This data set did not have a lot of instances for poor fetal health
-- consider maternal health and other diagnostic metrics into the model(heart rate, oxygen level, what anestetics are used)
+- Make a multiclass for fetal health, multiple classes of fetal health to better classify the health state
+- Find more CTG exam data to better train model.  This data set did not have a lot of instances for poor fetal health
+- Consider maternal health and other diagnostic metrics into the model(heart rate, oxygen level, what anestetics are used)
 
  
 
 ## For More Information
-- kaggle dataset [kaggle_data](https://www.kaggle.com/andrewmvd/fetal-health-classification)
-- ncbi papers [Hoodbhoy, Noman](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822315/)
+- Kaggle dataset [kaggle_data](https://www.kaggle.com/andrewmvd/fetal-health-classification)
+- NVBI Papers [Hoodbhoy, Noman](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822315/)
 - Notebooks
     - [Analysis](./fetal_heatlh_data_analysis.ipynb)
     - [Vanilla modeling process](./vanilla_model_cleaned.ipynb)
