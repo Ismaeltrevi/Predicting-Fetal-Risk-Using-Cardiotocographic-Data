@@ -1,5 +1,5 @@
 # Predicting Fetal Risk Using Cardiotocographic Data
-**Authors**: Ismael Araujo and Jacob Heyman
+**Authors**: Ismael Araujo, Jacob Heyman
 
 ***This is a revised version of the original project created by Ismael Araujo and Jacob Heyman. You can find it [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
 
