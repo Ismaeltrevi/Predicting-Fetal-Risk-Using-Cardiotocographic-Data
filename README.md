@@ -6,26 +6,26 @@
 ***Note: This is a revised version of the original project created by Ismael Araujo and Jacob Heyman. You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
 
 ## Overview
-As medical technology advances, the rate of preventable child mortality decreases. Lowering child mortality rates has become a key goal in advancing any society and a key in human progress as a whole. While there are many advancements that have improved the mortality rate, not all of these practices are globally available. In order to improve mortality rates in cost effective and readily available solutions need to be applied and perfected.
+As medical technology advances, the rate of preventable child mortality decreases. Lowering child mortality rates has become a key goal in advancing any society and a key in human progress as a whole. While many advancements have improved the mortality rate, not all of these practices are globally available. To reduce mortality rates in cost-effective and readily available solutions need to be applied and perfected.
 
-One such cost effective and relatively simple method would be the use of Cardiotocograms (CTG). The CTG is a non-invasive fetal monitor which is used to asses fetal health. The CTG is used to detect fetal heart rate (FHR), uterine contractions, fetal movement, and sudden changes in heart rate. Extreme changes to the FHR results in surgical intervention through the use of cesarian delivery(C-section). Currently, doctors rely on a visual analysis of the CTG leading to erroneous interpretations of the exam. Minute changes which may be extremely detrimental to fetal health may also not be visible to the naked eye. Conversely some observable changes in fetal heart rate may appear to be fetal distress but are just a response to other factors like uterine contractions. Opting to perform a C-section increases the chances of mortality not only for the child but also the mother. For these reasons’ visual analysis of a CTG exam is limited by human error and cannot definitively detect fetal distress.
+One such cost-effective and relatively simple method would be the use of Cardiotocograms (CTG). The CTG is a non-invasive fetal monitor which is used to assess fetal health. The CTG is used to detect fetal heart rate (FHR), uterine contractions, fetal movement, and sudden heart rate changes. Extreme changes to the FHR result in surgical intervention through the use of cesarian delivery(C-section). Currently, doctors rely on a visual analysis of the CTG, leading to erroneous exam interpretations. Minute changes which may be extremely detrimental to fetal health may also not be visible to the naked eye.
 
+Conversely, some observable changes in fetal heart rate may appear to be fetal distress but are just a response to other factors like uterine contractions. In case doctors opt to perform C-section increases the chances of mortality for the child and the mother. For these reasons’ visual analysis of a CTG exam is limited by human error and cannot definitively detect fetal distress.
 
-In order to improve diagnosis of fetal distress with a CTG and improve the mortality rate, the use of machine learning algorithms becomes a viable option. A well-trained model will be able to identify which variable changes to the FHR have the greatest effect on fetal health. To lower the overall risk of child mortality a ML model must not only be able to accurately classify between normal and distressed fetal health but be precise enough in its predictions to prevent any unnecessary interventive surgical procedures.
+Machine learning algorithms could become a viable option to improve the diagnosis of fetal distress with a CTG and decrease the mortality rate. A well-trained model will identify which variable changes to the FHR have the most significant effect on fetal health. To lower the overall risk of child mortality, an ML model must accurately classify between normal and distressed fetal health and be precise enough in its predictions to prevent any unnecessary interventive surgical procedures.
+We used a CTG exam dataset found on Kaggle from The Journal of Maternal-Fetal Medicine for our analysis. The dataset consisted of 2126 CTG exam records classified into three classes (normal, suspect, pathological). In this initial analysis, we decided to create a normal and distressed binary class, combining the suspect and pathological classes into one class.
 
-
-For our analysis of the we used a CTG exam dataset found on Kaggle from The Journal of Maternal-Fetal Medicine. The dataset consisted of 2126 CTG exam records which were classified into three classes (normal, suspect, pathological). In this initial analysis we decided to create a binary class of normal and distressed, combining the suspect and pathological classes into one class.
-
-
-To address the issue of eliminating human error and erroneous surgical intervention, our goal of this analysis was to identify which key features played a role in determining the healthy or distressed classes, and to produce a highly precise model to eliminate unnecessary C-sections. To achieve these goals, we performed an extensive exploratory data analysis, created baseline models and preformed hyperparameter tuning of models for both an experimental feature and unaltered CTG data set. Our final model had clear feature importance and the best evaluation metrics.
+To address the issue of eliminating human error and erroneous surgical intervention, our goal of this analysis was to identify which key features played a role in determining the healthy or distressed classes and to produce a highly precise model to eliminate unnecessary C-sections. To achieve these goals, we performed an extensive exploratory data analysis, created baseline models, and performed hyperparameter tuning of models for both an experimental feature and unaltered CTG data set. Our final model had evident feature importance and the best evaluation metrics.
 
 
 
 ## Bussiness Problem 
-Preventing child mortality is a key indicator of medical progress.  A large percentage of deaths are the result of low access to resources that monitor fetal health.  One cost effective solution to monitor fetal health is the use of Cardiotocograms(CTGs). CTGs monitor fetal heart rate, fetal movement, uterine contractions, sudden heart rate changes and many other health metrics.  CTG scans are currently interpreted via visual analysis by the physician, and erroneous errors may result in increase fetal health risk.  Using a kaggle database of collected CTG exams, we aim to identify which features have the most impact on fetal health being either normal or distressed.  Using these features, we also aim to tune a model that provides the best predictions of fetal health class.  To identify the key features and create a precise model we considered the following **research questions:** 
-- **What feature have the greatest influence on the model**
-- **What, if any, new features affect the model**
-- **Which model makes the best predictions of fetal health class, and has the most precise predictions.**
+Preventing child mortality is a crucial indicator of medical progress. A large percentage of deaths are the result of low access to resources that monitor fetal health. One cost-effective solution to monitor fetal health is the use of Cardiotocograms(CTGs). CTGs monitor fetal heart rate, fetal movement, uterine contractions, sudden heart rate changes, and many other health metrics. CTG scans are currently interpreted via visual analysis by the physician, and erroneous errors may increase fetal health risk. Using a Kaggle database of collected CTG exams, we aim to identify which features have the most impact on fetal health, being either normal or distressed. Using these features, we also aim to tune a model that provides the best fetal health class predictions. To identify the key features and create a precise model, we considered the following research questions
+
+**What feature has the most significant influence on the model
+What, if any, new features affect the model
+Which model makes the best predictions of fetal health class and has the most precise predictions.**
+
 
 
 ## Data
@@ -162,3 +162,4 @@ Cardiotocographs are a cost effective method to moniter fetal health, and use ar
 ├─  data.csv                            <- folder with fetal health dataset
 └── Phase_3_Project_Pres                <- Presentation slidedeck
 ```
+
