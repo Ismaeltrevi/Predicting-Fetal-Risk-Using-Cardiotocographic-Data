@@ -22,7 +22,7 @@ To address the issue of eliminating human error and erroneous surgical intervent
 ## Bussiness Problem 
 Preventing child mortality is a crucial indicator of medical progress. A large percentage of deaths are the result of low access to resources that monitor fetal health. One cost-effective solution to monitor fetal health is the use of Cardiotocograms(CTGs). CTGs monitor fetal heart rate, fetal movement, uterine contractions, sudden heart rate changes, and many other health metrics. CTG scans are currently interpreted via visual analysis by the physician, and erroneous errors may increase fetal health risk. Using a Kaggle database of collected CTG exams, we aim to identify which features have the most impact on fetal health, being either normal or distressed. Using these features, we also aim to tune a model that provides the best fetal health class predictions. To identify the key features and create a precise model, we considered the following research questions
 
-**What feature has the most significant influence on the model**
+**What features have the most significant influence on the model**
 
 **What, if any, new features affect the model**
 
