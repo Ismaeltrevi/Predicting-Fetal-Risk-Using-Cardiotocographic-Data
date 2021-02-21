@@ -1,9 +1,9 @@
 # Predicting Fetal Risk Using Cardiotocographic Data
+***Note: This is a revised version of the original project created by Ismael Araujo and Jacob Heyman. You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
+
 ![header](https://www.babycenter.in/ims/2015/08/ThinkstockPhotos-467038537_wide.jpg)
 
 **Authors**: Ismael Araujo and Jacob Heyman
-
-***Note: This is a revised version of the original project created by Ismael Araujo and Jacob Heyman. You can find the original version [here](https://github.com/Jacobheyman702/Predicting-Fetal-Risk-Using-Cardiotocographic-Data "here").***
 
 ## Overview
 As medical technology advances, the rate of preventable child mortality decreases. Lowering child mortality rates has become a key goal in advancing any society and a key in human progress as a whole. While many advancements have improved the mortality rate, not all of these practices are globally available. To reduce mortality rates in cost-effective and readily available solutions need to be applied and perfected.
@@ -64,15 +64,15 @@ The data comes from [Kaggle](https://www.kaggle.com/andrewmvd/fetal-health-class
 ## Methods
 To determine the key features in fetal health classification and produce the best possible model, we implemented the following methods in our analysis
 - Initial Data Analysis and Data cleaning
-    - changed target class label into binary fetal health class (normal: 1, distressed: 2)
+    - Changed target class label into binary fetal health class (normal: 1, distressed: 2)
 - EDA
     - In depth analysis of features and relations with other features and the target class
     ![histogram_mean](./images/histogram_class_by_hist_mean.png)
 - Baseline models
-    - default models(KNN, Logistic Regression, Decision Tree, and Random Forest)
+    - Default models(KNN, Logistic Regression, Decision Tree, and Random Forest)
 - Feature Engineering
 - Created two modeling process notebooks Vanilla and Experimental
-    - to compare unaltered dataset model tuning to experimental feature dataset
+    - To compare unaltered dataset model tuning to experimental feature dataset
 - modeling and hyperparameter tuning for both databases
     - KNN
     - Logistic Regression
@@ -85,7 +85,7 @@ To determine the key features in fetal health classification and produce the bes
         - Gridsearch
         - Model with best parameters
     
-- checked feature importance of best models
+- Checked feature importance of best models
 
 
 
