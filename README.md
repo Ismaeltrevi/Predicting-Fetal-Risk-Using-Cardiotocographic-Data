@@ -35,28 +35,28 @@ Our data came from Kaggle.com (https://www.kaggle.com/andrewmvd/fetal-health-cla
 
 |   |   |
 | ------------ | ------------ |
-|**baseline_value **|Baseline Fetal Heart Rate|
+|**baseline_value** |Baseline Fetal Heart Rate|
 |**accelerations **|Number of accelerations per second|
-|**fetal_movement **|Number of fetal movements per second|
-|**uterine_contractions **|Number of uterine contractions per second|
-|**light_decelerations **|Number of LDs per second|
-|**severe_deceleration **|Number of Sds per second|
-|**prolongued_deceleration **|Number of PDs per second|
-|**abnormal_short_term_variatability **|Percentage of time with abnormal short tearm variatability|
-|**mean_value_of_short_term_variability **|Mean value of short term variability|
-|**percentage_of_time_with_abnormal_long_term_variabilit**|Percentage of time with abnormal long term variability|
-|**mean_value_of_long_term_variability **|average value of long tearm variability|
-|**histogram_width **|Width of histogram using all the values from the record|
-|**histogram_min **|minimum value of histogram|
-|**histogram_max **|maximum value of hitogram|
-|**histogram_number_of_peaks **|number of peaks in the exam histogram|
-|**histogram_number_of_zeroes **|number of zeros in the exam histogram|
-|**histogram_mode **|histogram mode|
-|**histogram_mean **|histogram mean|
-|**histogram_median **|histogram median|
-|**histogram_variance **|histogram variance|
-|**histogram_tendency **|histogram tendancy|
-|**fetal_health **|0: normal 1:distressed|
+|**fetal_movement** |Number of fetal movements per second|
+|**uterine_contractions** |Number of uterine contractions per second|
+|**light_decelerations** |Number of LDs per second|
+|**severe_deceleration** |Number of Sds per second|
+|**prolongued_deceleration** |Number of PDs per second|
+|**abnormal_short_term_variatability** |Percentage of time with abnormal short tearm variatability|
+|**mean_value_of_short_term_variability** |Mean value of short term variability|
+|**percentage_of_time_with_abnormal_long_term_variability**|Percentage of time with abnormal long term variability|
+|**mean_value_of_long_term_variability** |average value of long tearm variability|
+|**histogram_width** |Width of histogram using all the values from the record|
+|**histogram_min** |minimum value of histogram|
+|**histogram_max** |maximum value of hitogram|
+|**histogram_number_of_peaks** |number of peaks in the exam histogram|
+|**histogram_number_of_zeroes** |number of zeros in the exam histogram|
+|**histogram_mode** |histogram mode|
+|**histogram_mean** |histogram mean|
+|**histogram_median** |histogram median|
+|**histogram_variance** |histogram variance|
+|**histogram_tendency** |histogram tendancy|
+|**fetal_health** |0: normal 1:distressed|
 
 
 
