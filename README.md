@@ -35,7 +35,7 @@ Our data came from Kaggle.com (https://www.kaggle.com/andrewmvd/fetal-health-cla
 
 |   |   |
 | ------------ | ------------ |
-|**baseline_value **|Baseline Fetal Heart Rate**|
+|**baseline_value **|Baseline Fetal Heart Rate|
 |**accelerations **|Number of accelerations per second|
 |**fetal_movement **|Number of fetal movements per second|
 |**uterine_contractions **|Number of uterine contractions per second|
