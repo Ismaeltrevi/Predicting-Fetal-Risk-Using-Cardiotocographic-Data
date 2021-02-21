@@ -31,9 +31,9 @@ Preventing child mortality is a crucial indicator of medical progress. A large p
 
 
 ## Data
-Our data came from Kaggle.com (https://www.kaggle.com/andrewmvd/fetal-health-classification).  The data comes from 2126 cardiotocogram measurments described in Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318.  The CTG measurments where used to create a classification model to classify fetal health being either normal or distressed.  The DataFrame included the following columns:
+The data comes from [Kaggle](https://www.kaggle.com/andrewmvd/fetal-health-classification "Kaggle"). The data comes from 2,126 cardiotocograph measurements described in Ayres de Campos et al. (2000) SisPorto 2.0 - A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318.  The CTG measurements were used to create a classification model to classify fetal health being either normal or distressed.  The DataFrame included the following columns:
 
-|   |   |
+|Feature   |Description   |
 | ------------ | ------------ |
 |**baseline_value** |Baseline Fetal Heart Rate|
 |**accelerations**|Number of accelerations per second|
@@ -45,18 +45,18 @@ Our data came from Kaggle.com (https://www.kaggle.com/andrewmvd/fetal-health-cla
 |**abnormal_short_term_variatability** |Percentage of time with abnormal short tearm variatability|
 |**mean_value_of_short_term_variability** |Mean value of short term variability|
 |**percentage_of_time_with_abnormal_long_term_variability**|Percentage of time with abnormal long term variability|
-|**mean_value_of_long_term_variability** |average value of long tearm variability|
+|**mean_value_of_long_term_variability** |Average value of long tearm variability|
 |**histogram_width** |Width of histogram using all the values from the record|
-|**histogram_min** |minimum value of histogram|
-|**histogram_max** |maximum value of hitogram|
-|**histogram_number_of_peaks** |number of peaks in the exam histogram|
-|**histogram_number_of_zeroes** |number of zeros in the exam histogram|
-|**histogram_mode** |histogram mode|
-|**histogram_mean** |histogram mean|
-|**histogram_median** |histogram median|
-|**histogram_variance** |histogram variance|
-|**histogram_tendency** |histogram tendancy|
-|**fetal_health** |0: normal 1:distressed|
+|**histogram_min** | Shows minimum value of histogram|
+|**histogram_max** | Shows maximum value of hitogram|
+|**histogram_number_of_peaks** | Shows number of peaks in the exam histogram|
+|**histogram_number_of_zeroes** | Shows number of zeros in the exam histogram|
+|**histogram_mode** | Shows histogram mode|
+|**histogram_mean** | Shows histogram mean|
+|**histogram_median** | Shows histogram median|
+|**histogram_variance** | Shows histogram variance|
+|**histogram_tendency** | Shows histogram tendancy|
+|**fetal_health** |0: Normal and 1: Distressed|
 
 
 
@@ -92,7 +92,7 @@ To determine the key features in fetal health classification and produce the bes
 
 
 ## Results
-In our exploritory analysis we preformed several baseline models to see how the dataset classifed fetal health.  Each baseline model was surprisingly accurate at predicting the classes.  We decided to preform two seperate modeling processes focusing on tuning the hyperparameters on the untouched dataset(vanilla) and an experimental dataset with new features.  For the experimental dataset we created several new features, using binning, dummy variables and a combination of several existing features.
+In our exploratory analysis, we performed several baseline models to see how the dataset classified fetal health.  Each baseline model was surprisingly accurate at predicting the classes.  We decided to perform two separate modeling processes focusing on tuning the hyperparameters on the untouched dataset and an experimental dataset with new features.  We created several new features for the testing dataset using binning, dummy variables, and a combination of several existing features.
 ![sqrt_total_change](./images/sqrt_total_change_by_class.png)
 
 The best model overall for **vanilla** was a grid search best features random forest with the following hyperparameters and evaluation metrics:
