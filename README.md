@@ -22,7 +22,7 @@ To address the issue of eliminating human error and erroneous surgical intervent
 ## Bussiness Problem 
 Preventing child mortality is a crucial indicator of medical progress. A large percentage of deaths are the result of low access to resources that monitor fetal health. One cost-effective solution to monitor fetal health is the use of Cardiotocograms(CTGs). CTGs monitor fetal heart rate, fetal movement, uterine contractions, sudden heart rate changes, and many other health metrics. CTG scans are currently interpreted via visual analysis by the physician, and erroneous errors may increase fetal health risk. Using a Kaggle database of collected CTG exams, we aim to identify which features have the most impact on fetal health, being either normal or distressed. Using these features, we also aim to tune a model that provides the best fetal health class predictions. To identify the key features and create a precise model, we considered the following research questions
 
-**What features have the most significant influence on the model**
+**What feature has the most significant influence on the model**
 
 **What, if any, new features affect the model**
 
@@ -33,28 +33,34 @@ Preventing child mortality is a crucial indicator of medical progress. A large p
 ## Data
 Our data came from Kaggle.com (https://www.kaggle.com/andrewmvd/fetal-health-classification).  The data comes from 2126 cardiotocogram measurments described in Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318.  The CTG measurments where used to create a classification model to classify fetal health being either normal or distressed.  The DataFrame included the following columns:
 
-- **baseline_value - Baseline Fetal Heart Rate**
-- **accelerations - Number of accelerations per second**
-- **fetal_movement - Number of fetal movements per second**
-- **uterine_contractions - Number of uterine contractions per second**
-- **light_decelerations - Number of LDs per second**
-- **severe_deceleration - Number of Sds per second**
-- **prolongued_deceleration - Number of PDs per second**
-- **abnormal_short_term_variatability - Percentage of time with abnormal short tearm variatability**
-- **mean_value_of_short_term_variability - Mean value of short term variability**
-- **percentage_of_time_with_abnormal_long_term_variability - Percentage of time with abnormal long term variability**
-- **mean_value_of_long_term_variability - average value of long tearm variability**
-- **histogram_width - Width of histogram using all the values from the record**
-- **histogram_min - minimum value of histogram**
-- **histogram_max - maximum value of hitogram**
-- **histogram_number_of_peaks - number of peaks in the exam histogram**
-- **histogram_number_of_zeroes - number of zeros in the exam histogram**
-- **histogram_mode - histogram mode**
-- **histogram_mean - histogram mean**
-- **histogram_median - histogram median**
-- **histogram_variance - histogram variance**
-- **histogram_tendency - histogram tendancy**
-- **fetal_health - 0: normal 1:distressed**
+|   |   |
+| ------------ | ------------ |
+|   |   |
+|   |   |
+
+
+|**baseline_value **|Baseline Fetal Heart Rate**|
+|**accelerations **|Number of accelerations per second|
+|**fetal_movement **|Number of fetal movements per second|
+|**uterine_contractions **|Number of uterine contractions per second|
+|**light_decelerations **|Number of LDs per second|
+|**severe_deceleration **|Number of Sds per second|
+|**prolongued_deceleration **|Number of PDs per second|
+|**abnormal_short_term_variatability **|Percentage of time with abnormal short tearm variatability|
+|**mean_value_of_short_term_variability **|Mean value of short term variability|
+|**percentage_of_time_with_abnormal_long_term_variabilit**|Percentage of time with abnormal long term variability|
+|**mean_value_of_long_term_variability **|average value of long tearm variability|
+|**histogram_width **|Width of histogram using all the values from the record|
+|**histogram_min **|minimum value of histogram|
+|**histogram_max **|maximum value of hitogram|
+|**histogram_number_of_peaks **|number of peaks in the exam histogram|
+|**histogram_number_of_zeroes **|number of zeros in the exam histogram|
+|**histogram_mode **|histogram mode|
+|**histogram_mean **|histogram mean|
+|**histogram_median **|histogram median|
+|**histogram_variance **|histogram variance|
+|**histogram_tendency **|histogram tendancy|
+|**fetal_health **|0: normal 1:distressed|
 
 
 
