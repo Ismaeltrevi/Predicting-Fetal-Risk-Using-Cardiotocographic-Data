@@ -69,7 +69,8 @@ To determine the key features in fetal health classification and produce the bes
     - Changed target class label into binary fetal health class (normal: 1, distressed: 2)
 - EDA
     - In depth analysis of features and relations with other features and the target class
-    ![histogram_mean](./images/histogram_class_by_hist_mean.png)
+
+    ![histogram_mean](./images/Fetal_Health_by_min_histogram_FHR.png)
 - Baseline models
     - Default models(KNN, Logistic Regression, Decision Tree, and Random Forest)
 - Feature Engineering
