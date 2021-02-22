@@ -96,7 +96,7 @@ To determine the key features in fetal health classification and produce the bes
 
 ## Results
 In our exploratory analysis, we performed several baseline models to see how the dataset classified fetal health.  Each baseline model was surprisingly accurate at predicting the classes.  We decided to perform two separate modeling processes focusing on tuning the hyperparameters on the untouched dataset and an experimental dataset with new features.  We created several new features for the testing dataset using binning, dummy variables, and a combination of several existing features.
-![sqrt_total_change](./images/sqrt_total_change_by_class.png)
+![sqrt_total_change](/images/Square_Total_Change_Fetal_Health.png)
 
 The best model overall for **vanilla** was a grid search best features random forest with the following hyperparameters and evaluation metrics:
     
