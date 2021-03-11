@@ -1,3 +1,4 @@
+from sklearn import metrics
 from sklearn.metrics import mean_squared_error, precision_score
 from sklearn.metrics import confusion_matrix, accuracy_score  
 
