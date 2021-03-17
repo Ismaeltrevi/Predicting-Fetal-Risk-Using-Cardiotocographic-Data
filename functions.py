@@ -37,18 +37,11 @@ def evaluation(y_true, y_pred):
     print('Recall: ' + str(metrics.recall_score(y_true, y_pred)))
     print('F1 Score: ' + str(metrics.f1_score(y_true, y_pred)))
     
-# Print Confusion Matrix
     print('\nConfusion Matrix:')
     print(' TN,  FP, FN, TP')
     print(confusion_matrix(y_true, y_pred).ravel())
     
     
-# Confusion Matrix    
-def confusion_matrix(clf, X_test, y_test):
-	plot_confusion_matrix(knn, X_test, y_test,  annot=True,cmap="OrRd")
-	plt.show()  
-
-
 # Cross-validation evaluation
 
 def cross_validation(model, X_train, y_train, x):
