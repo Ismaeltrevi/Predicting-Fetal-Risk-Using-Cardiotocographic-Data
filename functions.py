@@ -36,6 +36,15 @@ def evaluation(y_true, y_pred):
     print('Precision: ' + str(metrics.precision_score(y_true, y_pred)))
     print('Recall: ' + str(metrics.recall_score(y_true, y_pred)))
     print('F1 Score: ' + str(metrics.f1_score(y_true, y_pred)))
+    
+# Print Confusion Matrix
+    print('\nConfusion Matrix:')
+    print(' TN,  FP, FN, TP')
+    print(confusion_matrix(y_true, y_pred).ravel())
+    
+def confusion_matrix(clf, X_test, y_test):
+	plot_confusion_matrix(knn, X_test, y_test,  annot=True,cmap="OrRd")
+	plt.show()  
 
 
 # Cross-validation evaluation
@@ -95,3 +104,12 @@ def getPolarity(text):
     Checks review polarity
     '''
     return TextBlob(text).sentiment.polarity
+    
+# Print Confusion Matrix
+    print('\nConfusion Matrix:')
+    print(' TN,  FP, FN, TP')
+    print(confusion_matrix(y_true, y_pred).ravel())
+    
+# Function Prints best parameters for GridSearchCV
+def print_results(results):
+    print('Best Parameters: {}\n'.format(results.best_params_))   
